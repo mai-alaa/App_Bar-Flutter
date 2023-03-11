@@ -34,6 +34,12 @@ class MyApp extends StatelessWidget {
                   onPressed: () {
                     print('Notification is clicked');
                   }),
+              IconButton(
+                icon: Icon(Icons.search),
+                onPressed: () {
+                  print('loading');
+                },
+              ),
             ],
           ),
         ));
