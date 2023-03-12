@@ -27,9 +27,13 @@ class MyApp extends StatelessWidget {
               'First App',
             ),
             actions: [
-              Icon(
-                Icons.notifications,
-              ),
+              IconButton(
+                  icon: Icon(
+                    Icons.notifications,
+                  ),
+                  onPressed: () {
+                    print('Notification is clicked');
+                  }),
             ],
           ),
         ));
