@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
               IconButton(
                 icon: Icon(Icons.search),
                 onPressed: () {
-                  print('loading');
+                  print('loading...');
                 },
               ),
             ],
